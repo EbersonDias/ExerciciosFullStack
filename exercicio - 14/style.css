@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: sans-serif;
   }
@@ -25,4 +26,33 @@ body {
   
   .cursor-pointer {
     cursor: pointer;
+=======
+body {
+    font-family: sans-serif;
+  }
+  
+  #gameBoard {
+    background-color: #232323;
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    max-width: 19rem;
+  }
+  
+  #gameBoard span {
+    background-color: #ddd;
+    display: grid;
+    place-content: center;
+    font-size: 5rem;
+  }
+  
+  #gameBoard span.win {
+    background-color: #25a340;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+>>>>>>> b8870bcb907e486142cd9bcf2de0f64187e65047
   }
